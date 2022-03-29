@@ -89,7 +89,11 @@ function handleSaveClick(e) {
   link.click();
 }
 
+<<<<<<< Updated upstream
 function handleErase() {
+=======
+function handleEraseClick() {
+>>>>>>> Stashed changes
   ctx.fillStyle = "white";
   ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 }
@@ -120,5 +124,9 @@ if (saveBtn) {
 }
 
 if (eraseBtn) {
+<<<<<<< Updated upstream
   eraseBtn.addEventListener("click", handleErase);
+=======
+  eraseBtn.addEventListener("click", handleEraseClick);
+>>>>>>> Stashed changes
 }
